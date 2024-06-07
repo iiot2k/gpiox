@@ -72,8 +72,8 @@ The C++ API functions are described in the header file **gpiox_lib.h**
 
 void timeout_callback()
 {
-	gpiox::set_gpio(20, 0);
-	gpiox::deinit_gpio(20);
+    gpiox::set_gpio(20, 0);
+    gpiox::deinit_gpio(20);
 }
 
 int main()
@@ -81,7 +81,7 @@ int main()
     gpiox::init_gpio(20, gpiox::GPIO_MODE_OUTPUT, 1);
     gpiox::set_timeout(timeout_callback, 3000);
 
-	return 0;
+    return 0;
 }
 
 ```
