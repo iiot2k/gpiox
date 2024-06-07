@@ -2,7 +2,7 @@
 
 [![platform](https://img.shields.io/badge/platform-Raspberry--Pi-ff69b4)](https://www.raspberrypi.com/)
 
-Raspberry Pi gpiox library.
+Raspberry Pi gpiox library
 
 <a href="https://www.buymeacoffee.com/iiot2ka" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" height="41" width="174"></a><br>
 Thanks for the coffee !! 😁
@@ -18,8 +18,8 @@ or add in your ```package.json```:
     "@iiot2k/gpiox": "latest"
 },
 ```
-[View on npm](https://www.npmjs.com/package/@iiot2k/gpiox)<br>
-[View on GitHub](https://github.com/iiot2k/gpiox)<br>
+[View on npm](https://www.npmjs.com/package/@iiot2k/gpiox)📌<br>
+[View on GitHub](https://github.com/iiot2k/gpiox)📌<br>
 [Report any issues here](https://github.com/iiot2k/gpiox/issues)📌
 
 ## Detail
