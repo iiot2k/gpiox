@@ -1,0 +1,24 @@
+{
+  "name": "@iiot2k/gpiox",
+  "bugs": "https://github.com/iiot2k/gpiox/issues",
+  "description": "Raspberry Pi gpiox library",
+  "version": "2.1.1",
+  "license": "Apache-2.0",
+  "private": false,
+  "author": {
+    "name": "Derya Y.",
+    "email": "iiot2k@gmail.com"
+  },
+
+  "main": "gpiox.js",
+
+  "keywords": ["iot", "iiot2k", "raspberry pi", "rpi", 
+    "digital", "gpio", "gpiox", "input", "output", "pwm", "counter", "onewire", "1-wire", "ds18b20", "sensor", "temperature"
+  ],
+
+  "cpu" : ["arm","arm64"],
+  "os": ["linux"],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
