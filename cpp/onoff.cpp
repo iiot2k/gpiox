@@ -19,8 +19,8 @@
 
 void timeout_callback()
 {
-	gpiox::set_gpio(OUTPUT_PIN, 0);
-	gpiox::deinit_gpio(OUTPUT_PIN);
+    gpiox::set_gpio(OUTPUT_PIN, 0);
+    gpiox::deinit_gpio(OUTPUT_PIN);
 }
 
 int main()
@@ -32,7 +32,7 @@ int main()
     gpiox::init_gpio(OUTPUT_PIN, gpiox::GPIO_MODE_OUTPUT, 1);
     gpiox::set_timeout(timeout_callback, 3000);
 
-	return 0;
+    return 0;
 }
 
 

@@ -39,10 +39,10 @@ void onCtrlC(int signum)
 
 void counter_callback(uint32_t counter, bool onlimit, uint32_t mode, uint32_t high, uint32_t pin)
 {
-	if (onlimit)
-		printf("counter on limit: %d high: %d mode: %s\n", counter, high, (mode == gpiox::C_UP) ? "up" : "down");
-	else
-		printf("counter: %d\n", counter);
+    if (onlimit)
+        printf("counter on limit: %d high: %d mode: %s\n", counter, high, (mode == gpiox::C_UP) ? "up" : "down");
+    else
+        printf("counter: %d\n", counter);
 }
 
 int main()

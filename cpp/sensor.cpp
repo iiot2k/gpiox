@@ -32,9 +32,9 @@ int main()
     gpiox::read_sensor(SENSOR_PIN, false, sensor_data);
 
     for(uint32_t i=0; i < sensor_list.size(); i++)
-    	printf("%s %.1f°C\n", sensor_list[i].c_str(), sensor_data[i]);
+        printf("%s %.1f°C\n", sensor_list[i].c_str(), sensor_data[i]);
 
-	return 0;
+    return 0;
 }
 
 

@@ -28,3 +28,6 @@
 - Copy files to github
 - Add bugs in package.json
 - Change name from gpio to gpiox
+
+2.1.2
+- Bug in calculation pwm period

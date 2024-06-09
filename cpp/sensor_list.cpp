@@ -30,9 +30,9 @@ int main()
     gpiox::list_sensor(SENSOR_PIN, sensor_list);
 
     for(string id: sensor_list)
-    	puts(id.c_str());
+        puts(id.c_str());
 
-	return 0;
+    return 0;
 }
 
 

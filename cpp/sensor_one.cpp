@@ -32,7 +32,7 @@ int main()
 
     printf("%s %.1f°C\n", SENSOR_ID, temp_data);
 
-	return 0;
+    return 0;
 }
 
 
