@@ -31,3 +31,6 @@
 
 2.1.2
 - Bug in calculation pwm period
+
+2.1.3
+- fix watch_gpio accept only few inputs because UV_THREADPOOL_SIZE=4

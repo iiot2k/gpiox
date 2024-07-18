@@ -26,14 +26,6 @@ or add in your ```package.json```:
 - This library works on Raspberry Pi with 32bit or 64bit OS
 - Works also on Raspberry Pi 5
 
-## Bug in Function watch_gpio 🐛
->There is a bug in the watch_gpio function in the current library.<br>
-If more than 2 gpio watch calls are made, node.js crashes.<br>
-I am trying to find out the reason.<br>
-This also applies to the Node-Red node.<br>
-If the error is fixed, I will let you know here.<br>
-All other functions work correctly.
-
 ## Functions
 - Read/write/toggle/blink gpio
 - Watch gpio changes
