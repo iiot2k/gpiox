@@ -20,21 +20,21 @@ jobs:
       - name: build
         run: yarn build
 
-      # - name: npm release
-      #   run: yarn npm publish
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: npm release
+        run: yarn npm publish --access public --tag ${{github.ref_name}}
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - name: Package for Github release
         run: |
           mkdir release
           cp -r ./dist ./release/dist
-          cp package.json ./release/package.json
-          zip -9 -r release.zip ./release
+          cp package.json ./release/package.json 
+          zip -9 -r release-${{github.ref_name}}.zip ./release
 
       - name: Github release
         uses: softprops/action-gh-release@v2
         with:
-          files: ./release.zip
+          files: ./release-${{github.ref_name}}.zip
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
