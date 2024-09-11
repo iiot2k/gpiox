@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@iiot2k/gpiox@workspace:.":
+"@isim/gpiox@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@iiot2k/gpiox@workspace:."
+  resolution: "@isim/gpiox@workspace:."
   dependencies:
     "@types/node": "npm:^22.5.4"
     typescript: "npm:^5.6.2"
