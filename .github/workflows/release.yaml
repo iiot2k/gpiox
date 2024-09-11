@@ -19,8 +19,18 @@ jobs:
 
       - name: build
         run: yarn build
+
       - name: Bump NPM version
         run: yarn version ${{github.ref_name}}
+
+      - name: Setup .yarnrc.yml
+        run: |
+          yarn config set npmScopes.my-org.npmRegistryServer "https://npm.pkg.github.com"
+          yarn config set npmScopes.my-org.npmAlwaysAuth true
+          yarn config set npmScopes.my-org.npmAuthToken $NPM_AUTH_TOKEN
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: npm release
         run: yarn npm publish --access public --tag ${{github.ref_name}}
         env:
