@@ -1,8 +1,8 @@
 {
-  "name": "@isim/gpiox",
+  "name": "@isimnz/gpiox",
   "bugs": "https://github.com/iSim-Ltd/gpiox-RPI/issues",
   "description": "Raspberry Pi gpiox library - Now with TypeScript!\n Thank you so much to Derya Y.(AKA iiot2k) for creating the base javascript package",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "license": "Apache-2.0",
   "author": {
     "name": "Derya Y.",
@@ -11,7 +11,7 @@
   "contributors": [
     {
       "name": "Rory T.",
-      "email": "rorythomson64@gmail.com"
+      "email": "rory@isim.co.nz"
     }
   ],
   "main": "./dist/gpiox.js",

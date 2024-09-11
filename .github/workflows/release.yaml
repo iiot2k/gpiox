@@ -19,7 +19,8 @@ jobs:
 
       - name: build
         run: yarn build
-
+      - name: Bump NPM version
+        run: yarn version --new-version ${{github.ref_name}}
       - name: npm release
         run: yarn npm publish --access public --tag ${{github.ref_name}}
         env:
