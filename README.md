@@ -3,7 +3,7 @@
 
 [![platform](https://img.shields.io/badge/platform-Raspberry--Pi-ff69b4)](https://www.raspberrypi.com/)
 
-Raspberry Pi gpiox library
+Raspberry Pi gpiox library - Now with TypeScript Support 🎉
 
 Thank you so much to iiot2k for the great working implementing gpiox in node.js. Please support them with the link below
 <a href="https://www.buymeacoffee.com/iiot2ka" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" height="41" width="174"></a><br>
