@@ -19,3 +19,13 @@ jobs:
 
       - name: build
         run: yarn build
+
+      - name: Github release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      # - name: npm release
+      #   run: yarn npm publish
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
