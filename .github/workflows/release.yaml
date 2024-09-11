@@ -15,7 +15,7 @@ jobs:
           node-version: "22.x"
 
       - name: corepack & yarn
-        run: corepack enable & yarn
+        run: corepack enable && yarn
 
       - name: build
         run: yarn build
