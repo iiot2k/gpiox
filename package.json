@@ -8,7 +8,8 @@
     "name": "Derya Y.",
     "email": "iiot2k@gmail.com"
   },
-  "main": "gpiox.js",
+  "main": "./dist/gpiox.js",
+  "types": "./dist/gpiox.d.ts",
   "keywords": [
     "iot",
     "iiot2k",
@@ -27,18 +28,12 @@
     "sensor",
     "temperature"
   ],
-  "cpu": [
-    "arm",
-    "arm64"
-  ],
-  "os": [
-    "linux"
-  ],
-  "engines": {
-    "node": ">=12.0.0"
-  },
   "packageManager": "yarn@4.4.1+sha512.f825273d0689cc9ead3259c14998037662f1dcd06912637b21a450e8da7cfeb4b1965bbee73d16927baa1201054126bc385c6f43ff4aa705c8631d26e12460f1",
   "devDependencies": {
+    "@types/node": "^22.5.4",
     "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "Build": "tsc"
   }
 }
