@@ -11,13 +11,13 @@ Thank you so much to iiot2k for the great working implementing gpiox in node.js.
 
 ## Installation
 ```
-npm install @isim/gpiox
+npm install @isimnz/gpiox
 ```
 or add in your ```package.json```:
 
 ```json
 "dependencies": {
-    "@isim/gpiox": "latest"
+    "@isimnz/gpiox": "latest"
 },
 ```
 [View on npm](https://www.npmjs.com/package/@isimnz/gpiox)📌<br>
