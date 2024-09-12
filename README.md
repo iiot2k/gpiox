@@ -20,11 +20,11 @@ or add in your ```package.json```:
     "@isim/gpiox": "latest"
 },
 ```
-[View on npm](https://www.npmjs.com/package/@isim/gpiox)📌<br>
+[View on npm](https://www.npmjs.com/package/@isimnz/gpiox)📌<br>
 Original:
 [View on npm](https://www.npmjs.com/package/@iiot2k/gpiox)📌<br>
 
-[View on GitHub](https://github.com/isim/gpiox)📌<br>
+[View on GitHub](https://github.com/iSim-Ltd/gpiox-RPI)📌<br>
 Original:
 [View on GitHub](https://github.com/iiot2k/gpiox)📌<br>
 
