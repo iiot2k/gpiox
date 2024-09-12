@@ -28,8 +28,6 @@ jobs:
           yarn config set npmScopes.isimnz.npmRegistryServer "https://npm.pkg.github.com"
           yarn config set npmScopes.isimnz.npmAlwaysAuth true
           yarn config set npmScopes.isimnz.npmAuthToken ${{ secrets.NPM_TOKEN }}
-      - name: skill issue
-        run: cat .yarnrc.yml
 
       - name: npm release
         run: yarn npm publish --access public --tag ${{github.ref_name}}
