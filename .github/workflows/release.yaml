@@ -25,11 +25,9 @@ jobs:
 
       - name: Setup .yarnrc.yml
         run: |
-          yarn config set npmScopes.my-org.npmRegistryServer "https://npm.pkg.github.com"
-          yarn config set npmScopes.my-org.npmAlwaysAuth true
-          yarn config set npmScopes.my-org.npmAuthToken $NPM_AUTH_TOKEN
-        env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          yarn config set npmScopes.isimnz.npmRegistryServer "https://npm.pkg.github.com"
+          yarn config set npmScopes.isimnz.npmAlwaysAuth true
+          yarn config set npmScopes.isimnz.npmAuthToken ${{ secrets.NPM_TOKEN }}
       - name: skill issue
         run: cat .yarnrc.yml
 
