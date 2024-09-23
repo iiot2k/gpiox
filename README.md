@@ -1,4 +1,6 @@
-# @isim/gpiox
+# @isimnz/gpiox
+ ![monkasteer](https://github.com/user-attachments/assets/23268ed3-5e1f-42ca-b32a-d2394549f124)
+
 # Forked from @iiot2k/gpiox
 
 [![platform](https://img.shields.io/badge/platform-Raspberry--Pi-ff69b4)](https://www.raspberrypi.com/)
