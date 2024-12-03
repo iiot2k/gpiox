@@ -5,7 +5,6 @@
 Raspberry Pi gpiox library
 
 <a href="https://www.buymeacoffee.com/iiot2ka" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" height="41" width="174"></a><br>
-Thanks for the coffee !! 😁
 
 ## Installation
 ```

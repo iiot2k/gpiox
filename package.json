@@ -2,7 +2,7 @@
   "name": "@iiot2k/gpiox",
   "bugs": "https://github.com/iiot2k/gpiox/issues",
   "description": "Raspberry Pi gpiox library",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "license": "Apache-2.0",
   "private": false,
   "author": {

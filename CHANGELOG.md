@@ -34,3 +34,6 @@
 
 2.1.3
 - fix watch_gpio accept only few inputs because UV_THREADPOOL_SIZE=4
+
+2.1.4
+- fix "Chip Error" on devices other then Rpi5
